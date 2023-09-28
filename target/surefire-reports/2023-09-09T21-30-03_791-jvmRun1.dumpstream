@@ -1,0 +1,61 @@
+# Created at 2023-09-09T21:32:03.083
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2023-09-09T21:32:06.299
+Unexpected IOException: 8,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),null,Unable to find element with locator By.xpath: //a[text()='Sign Out']\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver,null,Unable to find element with locator By.xpath: //a[text()='Sign Out']\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver,LoginFuctionalityTest.invalidloginTest:38 \00BB NoSuchElement Unable to find eleme...,org.openqa.selenium.NoSuchElementException: \000AUnable to find element with locator By.xpath: //a[text()='Sign Out']\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at vtigerCRm.LoginFuctionalityTest.invalidloginTest(LoginFuctionalityTest.java:38)\000A
+
+
+# Created at 2023-09-09T21:32:07.823
+Unexpected IOException with stream: Sep 09, 2023 9:32:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
+
+
+# Created at 2023-09-09T21:32:09.963
+Unexpected IOException: 5,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),vtigerCRm.LoginFuctionalityTest,null,null
+
+
+# Created at 2023-09-09T21:32:10.123
+Unexpected IOException: 8,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=116.0.5845.180)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bed1cc6568b573de3576c0923c20f19a\002C findElement {using=name\002C value=user_password}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 116.0.5845.180\002C chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880...\002C userDataDir: C:\005CUsers\005CVIV\005CAppData\005CLocal\005C...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:5564}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:5564/devtool...\002C se:cdpVersion: 116.0.5845.180\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bed1cc6568b573de3576c0923c20f19a,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=116.0.5845.180)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bed1cc6568b573de3576c0923c20f19a\002C findElement {using=name\002C value=user_password}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 116.0.5845.180\002C chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880...\002C userDataDir: C:\005CUsers\005CVIV\005CAppData\005CLocal\005C...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:5564}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:5564/devtool...\002C se:cdpVersion: 116.0.5845.180\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bed1cc6568b573de3576c0923c20f19a,LoginFuctionalityTest.invalidloginTest:37 \00BB NoSuchWindow no such window: targe...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=116.0.5845.180)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bed1cc6568b573de3576c0923c20f19a\002C findElement {using=name\002C value=user_password}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 116.0.5845.180\002C chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880...\002C userDataDir: C:\005CUsers\005CVIV\005CAppData\005CLocal\005C...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:5564}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:5564/devtool...\002C se:cdpVersion: 116.0.5845.180\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: bed1cc6568b573de3576c0923c20f19a\000A\0009at vtigerCRm.LoginFuctionalityTest.invalidloginTest(LoginFuctionalityTest.java:37)\000A
+
+
+# Created at 2023-09-09T21:32:11.795
+Unexpected IOException with stream: Sep 09, 2023 9:32:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
+
+
+# Created at 2023-09-09T21:32:14.528
+Unexpected IOException: 5,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),vtigerCRm.LoginFuctionalityTest,null,null
+
+
+# Created at 2023-09-09T21:32:22.414
+Unexpected IOException: 8,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),null,Unable to find element with locator By.xpath: //a[text()='Sign Out']\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver,null,Unable to find element with locator By.xpath: //a[text()='Sign Out']\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver,LoginFuctionalityTest.invalidloginTest:38 \00BB NoSuchElement Unable to find eleme...,org.openqa.selenium.NoSuchElementException: \000AUnable to find element with locator By.xpath: //a[text()='Sign Out']\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at vtigerCRm.LoginFuctionalityTest.invalidloginTest(LoginFuctionalityTest.java:38)\000A
+
+
+# Created at 2023-09-09T21:32:23.768
+Unexpected IOException with stream: Sep 09, 2023 9:32:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
+
+
+# Created at 2023-09-09T21:32:25.462
+Unexpected IOException: 5,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),vtigerCRm.LoginFuctionalityTest,null,null
+
+
+# Created at 2023-09-09T21:32:25.640
+Unexpected IOException: 8,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),null,Unable to find element with locator By.name: user_password\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver,null,Unable to find element with locator By.name: user_password\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver,LoginFuctionalityTest.invalidloginTest:37 \00BB NoSuchElement Unable to find eleme...,org.openqa.selenium.NoSuchElementException: \000AUnable to find element with locator By.name: user_password\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '20.0.1'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at vtigerCRm.LoginFuctionalityTest.invalidloginTest(LoginFuctionalityTest.java:37)\000A
+
+
+# Created at 2023-09-09T21:32:27.051
+Unexpected IOException with stream: Sep 09, 2023 9:32:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
+
+
+# Created at 2023-09-09T21:32:28.691
+Unexpected IOException: 5,1,vtigerCRm.LoginFuctionalityTest,invalidloginTest(vtigerCRm.LoginFuctionalityTest),vtigerCRm.LoginFuctionalityTest,null,null
+
+
